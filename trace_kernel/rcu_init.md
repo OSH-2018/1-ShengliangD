@@ -12,7 +12,7 @@
 
 `RCU`的重要特点是：即使数据结构正在被更新，读者仍然可以访问。以从链表$L$中删除元素$B$为例（这里借用维基百科上的图，来源[Read-copy-update - Wikipedia](https://en.wikipedia.org/wiki/Read-copy-update)）：
 
-![](/home/shengliangd/Documents/Projects/bootana/note/Read-Copy_Update_Deletion_Procedure.svg)
+![](./Read-Copy_Update_Deletion_Procedure.svg)
 
 操作过程的4个状态及其转换过程如下：
 
